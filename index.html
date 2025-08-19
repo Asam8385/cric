@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gishan Balasooriya - Passionate Cricketer & Future Business Leader</title>
+    <link rel="icon" href="/images/Profile.jpeg" type="image/png">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-poppins bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md shadow-lg z-50 transition-all duration-300" id="navbar">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <img src="/images/Profile.jpeg" alt="Gishan Balasooriya" class="w-10 h-10 rounded-full border-2 border-blue-500">
+                    <span class="text-xl font-bold text-gray-800">Gishan Balasooriya</span>
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-gray-700 hover:text-blue-600 transition-colors">Home</a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-blue-600 transition-colors">About</a>
+                    <a href="#cricket" class="nav-link text-gray-700 hover:text-blue-600 transition-colors">Cricket</a>
+                    <a href="#education" class="nav-link text-gray-700 hover:text-blue-600 transition-colors">Education</a>
+                    <a href="#achievements" class="nav-link text-gray-700 hover:text-blue-600 transition-colors">Achievements</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
+                </div>
+                
+                <button class="md:hidden mobile-menu-btn">
+                    <i class="fas fa-bars text-gray-700 text-xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden bg-white border-t">
+            <div class="px-6 py-4 space-y-4">
+                <a href="#home" class="block text-gray-700 hover:text-blue-600">Home</a>
+                <a href="#about" class="block text-gray-700 hover:text-blue-600">About</a>
+                <a href="#cricket" class="block text-gray-700 hover:text-blue-600">Cricket</a>
+                <a href="#education" class="block text-gray-700 hover:text-blue-600">Education</a>
+                <a href="#achievements" class="block text-gray-700 hover:text-blue-600">Achievements</a>
+                <a href="#contact" class="block text-gray-700 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20 px-6">
+        <div class="container mx-auto text-center">
+            <div class="hero-content" data-aos="fade-up">
+                <img src="/images/Profile.jpeg" alt="Gishan Balasooriya" 
+                     class="w-48 h-48 mx-auto rounded-full border-8 border-white shadow-2xl mb-8 hover-lift">
+                
+                <h1 class="text-5xl md:text-7xl font-bold text-gray-800 mb-6">
+                    <span class="text-blue-600">Gishan</span> Balasooriya
+                </h1>
+                
+                <p class="text-xl md:text-2xl text-gray-600 mb-4 max-w-4xl mx-auto leading-relaxed">
+                    Passionate Cricketer and Edith Cowan University Undergraduate<br>
+                    <span class="text-blue-600 font-semibold">Pursuing Excellence On and Off the Field</span>
+                </p>
+                
+                <div class="flex flex-wrap justify-center items-center gap-4 mb-8">
+                    <div class="flex items-center text-gray-600">
+                        <i class="fas fa-map-marker-alt text-red-500 mr-2"></i>
+                        <span>Colombo, Western Province, Sri Lanka</span>
+                    </div>
+                    <div class="flex items-center text-gray-600">
+                        <i class="fab fa-linkedin text-blue-600 mr-2"></i>
+                        <span>13 Followers • 13 Connections</span>
+                    </div>
+                </div>
+                
+                <div class="flex justify-center space-x-6">
+                    <button class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                        <i class="fas fa-envelope mr-2"></i>Contact Me
+                    </button>
+                    <button class="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300 transform hover:scale-105">
+                        <i class="fas fa-download mr-2"></i>Download CV
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating Cricket Ball Animation -->
+        <div class="cricket-ball-animation">
+            <i class="fas fa-baseball-ball text-red-600 text-2xl"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-16" data-aos="fade-up">
+                About <span class="text-blue-600">Me</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <div class="relative">
+                        <img src="/images/cric.jpg" alt="Cricket Action" 
+                             class="rounded-2xl shadow-2xl hover-lift">
+                        <div class="absolute -bottom-6 -right-6 bg-blue-600 text-white p-4 rounded-2xl shadow-lg">
+                            <i class="fas fa-cricket text-2xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-6">Dedicated Cricketer & Future Leader</h3>
+                    <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+                        Dedicated cricketer and aspiring leader currently pursuing a diploma at Edith Cowan University. 
+                        With a passion for cricket cultivated through active participation at Sinhalese Sports Club, 
+                        I bring a competitive spirit, discipline, and teamwork to both the field and academic settings.
+                    </p>
+                    
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                        Complementing my sporting endeavors, my academic pursuits have honed my analytical abilities 
+                        and critical thinking skills. Possessing natural leadership qualities, I thrive in collaborative 
+                        environments, driving projects forward with a focus on excellence and results.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center p-4 bg-blue-50 rounded-xl">
+                            <h4 class="text-2xl font-bold text-blue-600">3+</h4>
+                            <p class="text-gray-600">Years Cricket Experience</p>
+                        </div>
+                        <div class="text-center p-4 bg-green-50 rounded-xl">
+                            <h4 class="text-2xl font-bold text-green-600">Captain</h4>
+                            <p class="text-gray-600">Royal College Team</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cricket Journey Section -->
+    <section id="cricket" class="py-20 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16" data-aos="fade-up">
+                My Cricket <span class="text-yellow-400">Journey</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="cricket-card bg-white/10 backdrop-blur-md p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-center mb-6">
+                        <img src="/images/cric.jpg" alt="Cricket Training" 
+                             class="w-full h-48 object-cover rounded-xl mb-4">
+                        <div class="bg-yellow-400 text-gray-800 p-3 rounded-full mx-auto w-16 h-16 flex items-center justify-center">
+                            <i class="fas fa-trophy text-2xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-center">Royal College Captain</h3>
+                    <p class="text-white/90 leading-relaxed text-center">
+                        Proudly served as captain of Royal College's cricket team in 2022, 
+                        leading by example and inspiring teammates to achieve excellence.
+                    </p>
+                </div>
+                
+                <div class="cricket-card bg-white/10 backdrop-blur-md p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-center mb-6">
+                        <img src="/images/cric.jpg" alt="Cricket Achievement" 
+                             class="w-full h-48 object-cover rounded-xl mb-4">
+                        <div class="bg-yellow-400 text-gray-800 p-3 rounded-full mx-auto w-16 h-16 flex items-center justify-center">
+                            <i class="fas fa-medal text-2xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-center">4th Year Coloursman</h3>
+                    <p class="text-white/90 leading-relaxed text-center">
+                        Achieved the prestigious honor of being a fourth-year coloursman at Royal College, 
+                        recognizing outstanding contribution to cricket.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-16" data-aos="fade-up">
+                Educational <span class="text-blue-600">Journey</span>
+            </h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="timeline">
+                    <!-- Edith Cowan University -->
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-content bg-white p-8 rounded-2xl shadow-lg">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-blue-600 text-white p-3 rounded-full mr-4">
+                                    <i class="fas fa-graduation-cap text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-800">Edith Cowan University</h3>
+                                    <p class="text-blue-600 font-semibold">Diploma of Education Business/Commerce, General</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-2">2023 - 2025</p>
+                            <p class="text-gray-700">
+                                Currently pursuing excellence in business education, developing analytical abilities 
+                                and critical thinking skills essential for future leadership roles.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- NIBM -->
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-content bg-white p-8 rounded-2xl shadow-lg">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-green-600 text-white p-3 rounded-full mr-4">
+                                    <i class="fas fa-laptop-code text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-800">National Institute of Business Management (NIBM)</h3>
+                                    <p class="text-green-600 font-semibold">Certificate in Computer Science</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-2">2023 - Present</p>
+                            <p class="text-gray-700">
+                                Expanding technical skills and digital literacy to complement business education 
+                                and stay competitive in the modern business landscape.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Royal College -->
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-content bg-white p-8 rounded-2xl shadow-lg">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-purple-600 text-white p-3 rounded-full mr-4">
+                                    <i class="fas fa-school text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-800">Royal College Colombo</h3>
+                                    <p class="text-purple-600 font-semibold">Secondary Education</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-2">2006 - 2021</p>
+                            <p class="text-gray-700">
+                                Foundation years that shaped character, leadership skills, and sporting excellence. 
+                                Developed discipline, teamwork, and competitive spirit through cricket.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Video Section -->
+    <section id="video" class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-16" data-aos="fade-up">
+           <span class="text-blue-600">Highlights</span>
+        </h2>
+    
+        <div class="max-w-4xl mx-auto" data-aos="zoom-in">
+  <div class="rounded-2xl overflow-hidden shadow-2xl bg-black">
+    <div class="relative w-full aspect-video">
+      <video
+        class="absolute inset-0 w-full h-full object-contain"
+        controls
+        playsinline
+        preload="metadata"
+        poster="/images/cric.jpg"
+        src="/video/port.mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div>
+
+    
+          <p class="text-center text-gray-600 mt-4">
+            Now playing: <span class="font-semibold">Highlights</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Experience Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-16" data-aos="fade-up">
+                Professional <span class="text-blue-600">Experience</span>
+            </h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="experience-card bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-2xl shadow-lg" data-aos="zoom-in">
+                    <div class="flex flex-col md:flex-row items-start md:items-center">
+                        <div class="bg-blue-600 text-white p-4 rounded-2xl mr-6 mb-4 md:mb-0">
+                            <i class="fas fa-cricket text-3xl"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-2">Professional Cricketer</h3>
+                            <p class="text-blue-600 font-semibold mb-2">Sinhalese Sports Club</p>
+                            <p class="text-gray-600 mb-4">February 2022 - Present (3 years 7 months)</p>
+                            <p class="text-gray-600 mb-2">📍 Colombo, Western Province, Sri Lanka</p>
+                            <p class="text-gray-700 leading-relaxed">
+                                Active participation in one of Sri Lanka's premier cricket clubs, contributing to team success 
+                                through dedicated training, competitive matches, and continuous skill development. 
+                                Demonstrates commitment to sporting excellence while balancing academic pursuits.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-20 bg-gradient-to-br from-yellow-50 to-orange-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-16" data-aos="fade-up">
+                Honors & <span class="text-yellow-600">Achievements</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="achievement-card bg-white p-8 rounded-2xl shadow-lg text-center" data-aos="flip-left">
+                    <div class="bg-gradient-to-r from-yellow-400 to-orange-500 text-white p-4 rounded-full mx-auto w-20 h-20 flex items-center justify-center mb-6">
+                        <i class="fas fa-certificate text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Certificate in Computer Science</h3>
+                    <p class="text-yellow-600 font-semibold mb-2">NIBM University</p>
+                    <p class="text-gray-600 mb-4">2023</p>
+                    <p class="text-gray-700">
+                        Recognized for excellence in computer science studies, demonstrating technical aptitude 
+                        and commitment to continuous learning in the digital age.
+                    </p>
+                </div>
+                
+                <div class="achievement-card bg-white p-8 rounded-2xl shadow-lg text-center" data-aos="flip-right">
+                    <div class="bg-gradient-to-r from-blue-400 to-purple-500 text-white p-4 rounded-full mx-auto w-20 h-20 flex items-center justify-center mb-6">
+                        <i class="fas fa-trophy text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">4th Year Cricket Coloursman</h3>
+                    <p class="text-purple-600 font-semibold mb-2">Royal College</p>
+                    <p class="text-gray-600 mb-4">2022</p>
+                    <p class="text-gray-700">
+                        In 2022, I proudly served as the captain of Royal College's team while also achieving 
+                        the honor of being a fourth-year coloursman, recognizing outstanding sporting contribution.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-20 bg-gray-800 text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16" data-aos="fade-up">
+                Core <span class="text-blue-400">Skills</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-blue-600 p-6 rounded-2xl text-center">
+                        <i class="fas fa-users text-4xl mb-4"></i>
+                        <h3 class="text-xl font-bold mb-4">Leadership & Teamwork</h3>
+                        <ul class="space-y-2 text-blue-100">
+                            <li>Team Captain Experience</li>
+                            <li>Collaborative Leadership</li>
+                            <li>Project Management</li>
+                            <li>Motivational Skills</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-green-600 p-6 rounded-2xl text-center">
+                        <i class="fas fa-brain text-4xl mb-4"></i>
+                        <h3 class="text-xl font-bold mb-4">Analytical & Academic</h3>
+                        <ul class="space-y-2 text-green-100">
+                            <li>Critical Thinking</li>
+                            <li>Problem Solving</li>
+                            <li>Business Analysis</li>
+                            <li>Computer Science</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-purple-600 p-6 rounded-2xl text-center">
+                        <i class="fas fa-cricket text-4xl mb-4"></i>
+                        <h3 class="text-xl font-bold mb-4">Athletic & Personal</h3>
+                        <ul class="space-y-2 text-purple-100">
+                            <li>Competitive Spirit</li>
+                            <li>Discipline</li>
+                            <li>Resilience</li>
+                            <li>Performance Under Pressure</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16" data-aos="fade-up">
+                Get In <span class="text-yellow-400">Touch</span>
+            </h2>
+            
+            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
+                <div data-aos="fade-right">
+                    <h3 class="text-2xl font-bold mb-6">Let's Connect</h3>
+                    <p class="text-blue-100 mb-8 leading-relaxed">
+                        Eager to leverage my diverse experiences and skills to contribute effectively 
+                        to any team or organization. Whether you're interested in my cricket journey, 
+                        academic pursuits, or leadership experience, I'd love to hear from you.
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-yellow-400 text-xl mr-4"></i>
+                            <span>Colombo, Western Province, Sri Lanka</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fab fa-linkedin text-yellow-400 text-xl mr-4"></i>
+                            <span>LinkedIn Profile - 13 Connections</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-cricket text-yellow-400 text-xl mr-4"></i>
+                            <span>Sinhalese Sports Club Member</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left">
+                    <form class="space-y-6 contact-form">
+                        <div>
+                            <input type="text" placeholder="Your Name" 
+                                   class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/70 focus:outline-none focus:border-yellow-400">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Your Email" 
+                                   class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/70 focus:outline-none focus:border-yellow-400">
+                        </div>
+                        <div>
+                            <textarea placeholder="Your Message" rows="5" 
+                                      class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/70 focus:outline-none focus:border-yellow-400 resize-none"></textarea>
+                        </div>
+                        <button type="submit" 
+                                class="w-full bg-yellow-400 text-gray-800 py-4 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <div class="mb-8">
+                <img src="/images/Profile.jpeg" alt="Gishan Balasooriya" 
+                     class="w-16 h-16 mx-auto rounded-full border-2 border-blue-500 mb-4">
+                <h3 class="text-2xl font-bold mb-2">Gishan Balasooriya</h3>
+                <p class="text-gray-400">Passionate Cricketer & Future Business Leader</p>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8">
+                <p class="text-gray-400">
+                    © 2024 Gishan Balasooriya. Crafted with passion for excellence on and off the field.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
